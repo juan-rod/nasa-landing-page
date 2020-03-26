@@ -1,0 +1,10 @@
+main {
+  border: 1px solid rgba(203, 70, 207, 0.564);
+}
+section.nasa-image {
+  border: 1px solid rgb(139, 139, 205);
+  height: 500px;
+  background-image: url('./nasa-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
