@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+main {
+display: flex;
+flex-direction: column;
+height: 100%;
+}
+main section.nasa-top {
+  /* flex: 1; */
+  height: 500px;
+  background-image: url('../nasa.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Play', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main section.nasa-top p {
+  color: white;
+  font-size: 74px;
+}
+main section.nasa-bottom {
+  /* flex: 1; */
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nasa-content {
+  border: 1px solid red;
+}

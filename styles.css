@@ -7,4 +7,8 @@ section.nasa-image {
   background-image: url('./nasa-image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  font-family: 'Play', sans-serif;
+}
+section:nth-of-type(2) {
+  font-family: 'Roboto', sans-serif;
 }
